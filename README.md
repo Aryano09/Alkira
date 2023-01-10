@@ -15,3 +15,4 @@ A modal was created to show details of a game for a team.
 Note : Modal could have been a diffrent component depending on the need.
 
 Test Cases are yet to be added.
+Also the code is left to be cleaned. 

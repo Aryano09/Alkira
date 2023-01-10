@@ -1,0 +1,165 @@
+.header {
+  position: absolute;
+  width: 36.4583333333vw;
+  height: 5.7296329454vh;
+  left: 9.837962963vw;
+  top: 4.3867502238vh;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+  display: flex;
+  align-items: center;
+  color: #074684;
+}
+
+.search-bar {
+  box-sizing: border-box;
+  position: absolute;
+  width: 43.4027777778vw;
+  height: 6.4458370636vh;
+  left: 9.837962963vw;
+  top: 13.6078782453vh;
+  background: #ffffff;
+  border: 2px solid #074684;
+  border-radius: 10px;
+}
+
+.table-head {
+  position: absolute;
+  width: 79.5717592593vw;
+  height: 7.072515667vh;
+  left: 9.837962963vw;
+  top: 25.1566696509vh;
+  background: #074684;
+  border-radius: 5px;
+  display: flex;
+}
+
+.table-row {
+  position: relative;
+  width: 79.5717592593vw;
+  height: 7.072515667vh;
+  left: 10.0115740741vw;
+  top: 32.6768128917vh;
+  margin-top: 0.4476275739vh;
+  background: #f8fbfd;
+  border-radius: 5px;
+  display: flex;
+}
+
+.table-head-cell {
+  width: 292px;
+  height: 42px;
+  left: 170px;
+  top: 300px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  /* or 233% */
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.table-row-cell {
+  width: 233px;
+  height: 59px;
+  left: 199px;
+  top: 368px;
+  padding-left: 1.5046296296vw;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  /* or 233% */
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.table-footer {
+  position: absolute;
+  width: 2.3148148148vw;
+  height: 3.133393017vh;
+  left: 76.2152777778vw;
+  top: 90.6893464637vh;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  /* or 233% */
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  color: #000000;
+}
+
+.modal {
+  position: absolute;
+  transform: translate(-50%, -50%) scale;
+  width: 665px;
+  height: 1117px;
+  left: 1063px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #e9eaeb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  z-index: 999;
+}
+.modal .modal-header {
+  box-sizing: border-box;
+  width: 665px;
+  height: 81px;
+  left: 1063px;
+  top: 0px;
+  background: #d8dfe4;
+}
+.modal .modal-header div {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  padding-top: 1.7009847807vh;
+  padding-left: 2.6041666667vw;
+  color: #000000;
+}
+
+.modal-body {
+  display: flex;
+}
+.modal-body .item-1 {
+  width: 50%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 56px;
+  padding-left: 1.1574074074vw;
+}
+.modal-body .item-2 {
+  width: 50%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 56px;
+  padding-left: 1.1574074074vw;
+}
+
+.game-details .item-1, .game-details .item-2 {
+  font-weight: 700;
+}
+.game-details div {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  padding-left: 1.1574074074vw;
+}/*# sourceMappingURL=app.css.map */
